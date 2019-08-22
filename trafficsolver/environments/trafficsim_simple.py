@@ -211,6 +211,21 @@ class TrafficSimSimple():
         lighttrans.set_translation(300,250)
         self.viewer.add_onetime(light2)
 
+        top_line = rendering.Line((0,325), (screen_width,325))
+        top_line.set_color(0,0,0)
+        self.viewer.add_onetime(top_line)
+
+        bottom_line = rendering.Line((0,275), (screen_width,275))
+        bottom_line.set_color(0,0,0)
+        self.viewer.add_onetime(bottom_line)
+
+        left_line = rendering.Line((235,325), (235,0))
+        left_line.set_color(0,0,0)
+        self.viewer.add_onetime(left_line)
+
+        right_line = rendering.Line((285,325), (285,0))
+        right_line.set_color(0,0,0)
+        self.viewer.add_onetime(right_line)
 
         return self.viewer.render(return_rgb_array = False)
         
