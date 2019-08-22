@@ -34,7 +34,7 @@ python -m experiments.enjoy_cartpole.py
 
 # Description of the RL environments provided as examples
 
-Cartpole: A pole stands upright on a cart that can move left or right. The agent has to keep the pole upright against gravity for as long as possible. The agent gets 1 point for every time step the cart is upright, up to 200 time steps. The episode ends if the pole is as too much of an angle or if the cart has left the edges of the screen.
+Cartpole: A pole stands upright on a cart that can move left or right. The agent has to keep the pole upright against gravity for as long as possible. The agent gets 1 point for every time step the cart is upright, up to 200 time steps. The episode ends if the pole is at too much of an angle or if the cart has left the edges of the screen.
 
 ![Cartpole Rendering](figures/cartpole.png)
 
