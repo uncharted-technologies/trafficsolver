@@ -12,11 +12,13 @@ Note that our traffic simulator demonstrates one way in which traffic can be rep
 
 # Installation
 
-This requires python3. Start by cloning this repo and then:
+Python 3 is required. Clone the repo and install the requirements with:
 
 ```sh
-pip install -e .  # at the root of this repo
+pip install -r requirements.txt
 ```
+
+We recommend using a virtual environment for this, see [virtualenv](https://docs.python-guide.org/dev/virtualenvs/).
 
 # Running the algorithms
 
@@ -41,6 +43,8 @@ Cartpole: A pole stands upright on a cart that can move left or right. The agent
 Basic Traffic Simulator: At a T-junction controlled by two traffic lights, red cars arrive from the left and blue cars from the bottom. At each time step, the cars move forward and the agent changes the state of one of the traffic lights. The agent gains one point each time a car leaves the intersection. The episode terminates either after 50 time steps or if a crash happens at the intersection.
 
 ![Traffic Simulator Rendering](figures/trafficsolver.png)
+
+Note: the RL algorithm provided perfectly solves Cartpole but often finds sub-optimal strategies for the traffic simulator. Bonus points for figuring out why this is and fixing the simulator!
 
 # References
 
