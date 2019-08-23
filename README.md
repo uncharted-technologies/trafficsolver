@@ -8,7 +8,7 @@ The objective is to formulate traffic control as a reinforcement learning proble
 
 We provide an implementation of the Deep Q Networks algorithm [1] in the algorithm folder, which you shouldn't really have to modify. We also provide two examples of RL environments in the environments folder: the classic control task Cartpole [2] and a very basic implementation of traffic simulation, with cars approaching a single traffic-light controlled intersection. We also provide a blank template for you to create your own simulation: the trafficsim.py file in the environments folder.
 
-Note that our traffic simulator demonstrates one way in which traffic can be represented as an RL problem: we encourage you to find alternative formulations.
+Note that our traffic simulator demonstrates one way in which traffic can be represented as an RL problem; however, we encourage you to find alternative formulations.
 
 # Installation
 
