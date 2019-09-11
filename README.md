@@ -10,6 +10,8 @@ We provide an implementation of the Deep Q Networks algorithm [1] in the algorit
 
 Note that our traffic simulator demonstrates one way in which traffic can be represented as an RL problem; however, we encourage you to find alternative formulations.
 
+We have also included a a short and simple introduction to reinforcement learning in pdf format, which includes a brief explanation of how the DQN algorithm works. This introduction also contains links to more advanced resources if you wish to learn more.
+
 # Installation
 
 Python 3 is required. Clone the repo and install the requirements with:
