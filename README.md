@@ -1,3 +1,5 @@
+![Unchartech Logo](figures/unchartech_nom.png)
+
 # Traffic Simulator
 
 Make your own traffic simulator in python and use reinforcement learning to optimize the flow of vehicles! 
