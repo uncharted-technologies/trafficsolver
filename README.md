@@ -1,4 +1,4 @@
-![Unchartech Logo](figures/unchartech_nom.png)
+<img src="figures/unchartech_nom.png" width="200">
 
 # Traffic Simulator
 
