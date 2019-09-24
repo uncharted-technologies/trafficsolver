@@ -1,4 +1,4 @@
-<img src="figures/unchartech_nom.png" width="400">
+<img src="figures/unchartech_nom.png" width="300">
 
 # Traffic Simulator
 
